@@ -1,24 +1,21 @@
-# README
+## Project Name: Homely-Restaurant
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Objectives
+In this project,my main objective is 
+developing and appplication that helps 
+people find good restaurants when they visit 
+a place. The application has restaurant 
+details and different foods available to 
+enable one makes his/her own judgement on 
+which to choose.
 
-Things you may want to cover:
+## Models and their relationships
+- Restaurant has_many reviews 
+- Restaurant has_many foods
+- Review  belongs_to a restaurant 
+- Review belongs_to a user
+- Food belongs_to a restaurant
+- User has_many Reviews
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+# Technologies Used
+1. Ruby on Rails. RoR is a web framework written in Ruby programming language. It allows installation and managing of dependencies and the communication with databases.
